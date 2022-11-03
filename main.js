@@ -17,10 +17,10 @@ Output: -2.398
 */
 
 //👉 Write the function your CodeWarriors will start with below here:
-export default function sumTester(arr){
-    let count = 0;
-    for(let i=0; i<arr.length; i++){
-      count+=arr[i]
-    }
-    return count
+export default function sumTester(arr) {
+	let count = 0;
+	for (let i = 0; i < arr.length; i++) {
+		count += arr[i];
+	}
+	return count;
 }
